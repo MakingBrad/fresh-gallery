@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+## Brads notes on the application
+** Notes on the application
+Brad wanted to build an 'react gallery' that is 'fresh' so he can use it in a future application (hopefully).
+The homework was too 'pre-baked' for brad - so he is going to do it the hard way.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TASK: GO ONLINE AND LOOK AT HOW TO CREATE A MARKDOWN DOCUMENT!
+``
+**general notes from Abrahams tutorial
+1- Start in VS code
+2- Push up later
+3- Use standard set up with command:
+	npx create-react-app fresh-gallery
+4- delete node modluels
 
-## Available Scripts
+to push to github:
+1- Initialize the git repo in the code
+	by using - git init
+2- make sure you package all the file I have and push them
+thru the github pipeline by using - git add .
+3- give a description about the project I have spun up - use the command - git commit -m "text to describe"
+{command plus makes text larger}
+**this sets up my code on my machine so it will migrate up
+to github
 
-In the project directory, you can run:
+then - we create a folder in github for this code to reside
 
-### `npm start`
+then - we set up the connection between my local code and the folder on github
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+first we copy the line we need from github - it will look something like this:
+git remote add origin git@github.com:MakingBrad/fresh-gallery.git
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+then we paste this into the command line (while I am in the proper directory)
 
-### `npm test`
+then we need to create a branch as the main branch by copying this from github:
+git branch -M main
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+then check the status - with "git status" it should say 'on branch main'
+then we push what we have (which isn't much at all) with the standard: git push origin main
+``
